@@ -7,6 +7,5 @@ public class BookRepository {
         System.out.println(
                 "BookRepository: Repository Layer Working"
         );
-
     }
 }
