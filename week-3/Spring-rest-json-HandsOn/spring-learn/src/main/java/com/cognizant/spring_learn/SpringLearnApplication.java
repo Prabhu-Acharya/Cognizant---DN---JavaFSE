@@ -25,9 +25,11 @@ public class SpringLearnApplication {
 		ApplicationContext context =
 				new ClassPathXmlApplicationContext("country.xml");
 
-		Country country =
-				context.getBean("country", Country.class);
 
-		LOGGER.debug("Country : {}", country);
+		Country country =
+				(Country) context.getBean("countryIndia");
+
+
+		System.out.println(country);
 	}
 }
