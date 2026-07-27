@@ -1,0 +1,21 @@
+body {
+
+    font-family: Arial;
+    margin: 20px;
+
+}
+
+
+button {
+
+    padding: 8px 20px;
+    cursor:pointer;
+
+}
+
+
+input,select {
+
+    padding:8px;
+
+}
